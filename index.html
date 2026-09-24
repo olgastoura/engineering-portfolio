@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Olga-Dimitra Stoura | Engineering Portfolio</title>
+<style>
+:root{--ink:#17202a;--muted:#667085;--line:#e4e8ed;--soft:#f5f7fa;--accent:#234f68}
+*{box-sizing:border-box;scroll-behavior:smooth}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);line-height:1.6;background:#fff}
+nav{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.97);border-bottom:1px solid var(--line)}
+.navin{max-width:1120px;margin:auto;padding:14px 24px;display:flex;align-items:center;justify-content:space-between}
+.brand{font-weight:700}.links a{margin-left:20px;text-decoration:none;color:var(--ink);font-size:14px}
+.links a:hover{color:var(--accent)}
+.hero{background:linear-gradient(135deg,#f5f8fa,#e7eef2);padding:90px 24px}
+.wrap{max-width:1120px;margin:auto;padding:0 24px}
+.hero .wrap{padding:0}.eyebrow{text-transform:uppercase;letter-spacing:2px;font-size:12px;font-weight:700;color:var(--accent)}
+h1{font-size:56px;line-height:1.05;max-width:800px;margin:12px 0 18px}
+.hero p{font-size:19px;color:#4e5b67;max-width:760px}
+.btn{display:inline-block;text-decoration:none;padding:11px 17px;border-radius:7px;font-weight:700;font-size:14px;margin:8px 8px 0 0}
+.primary{background:var(--accent);color:#fff}.secondary{border:1px solid #bdc7cf;color:var(--ink);background:#fff}
+section{padding:74px 0}.title{font-size:32px;margin:0 0 9px}.intro{color:var(--muted);max-width:780px;margin:0 0 34px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.card{border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#fff}
+.card img{width:100%;height:245px;object-fit:cover;display:block;background:#eef1f4}
+.cardbody{padding:23px}.tag{font-size:12px;font-weight:700;letter-spacing:.7px;color:var(--accent)}
+.card h3{font-size:21px;margin:5px 0 8px}.card p{color:#56616d}
+.chips{display:flex;flex-wrap:wrap;gap:7px;margin:15px 0}.chip{font-size:12px;padding:5px 9px;background:var(--soft);border:1px solid var(--line);border-radius:20px}
+.project{border-top:1px solid var(--line);margin-top:54px;padding-top:54px}
+.two{display:grid;grid-template-columns:1.05fr .95fr;gap:40px;align-items:start}
+.project h3{font-size:28px;margin:4px 0}.project h4{font-size:17px;margin:25px 0 7px}
+.project img{max-width:100%;width:100%;border:1px solid var(--line);border-radius:10px}
+.callout{background:var(--soft);border-left:4px solid var(--accent);padding:16px 18px;margin-top:20px;border-radius:5px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:22px 0}
+.stat{border:1px solid var(--line);border-radius:9px;padding:15px}.stat strong{display:block;font-size:22px}
+.exp{display:grid;grid-template-columns:1fr 1fr;gap:20px}.box{border:1px solid var(--line);border-radius:10px;padding:22px}.date{font-size:13px;color:var(--muted)}
+.skills{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.skill{background:var(--soft);padding:18px;border-radius:9px}
+footer{background:#17202a;color:#e3e9ee;padding:48px 0}footer a{color:#fff}
+@media(max-width:800px){h1{font-size:41px}.grid,.two,.exp{grid-template-columns:1fr}.skills{grid-template-columns:1fr 1fr}.links{display:none}}
+</style>
+</head>
+<body>
+<nav><div class="navin">
+<div class="brand">Olga-Dimitra Stoura</div>
+<div class="links">
+<a href="#about">About</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#resume">Resume</a><a href="#contact">Contact</a>
+</div></div></nav>
+
+<header class="hero"><div class="wrap">
+<div class="eyebrow">Mechanical Engineering Portfolio</div>
+<h1>Design. Analyze. Build.</h1>
+<p>Mechanical Engineering student at the University of Massachusetts Amherst with experience in CAD, finite element analysis, additive manufacturing, laboratory research, and engineering problem-solving.</p>
+<a class="btn primary" href="#projects">View My Projects</a>
+<a class="btn secondary" href="assets/resume.pdf" target="_blank">View Resume</a>
+</div></header>
+
+<section id="about"><div class="wrap">
+<h2 class="title">About Me</h2>
+<p class="intro">I am a Mechanical Engineering student at the University of Massachusetts Amherst interested in aerospace engineering, engineering research, and practical mechanical design. My experience combines academic design projects, laboratory research, and real-world engineering work in Greece.</p>
+<div class="callout"><strong>Engineering focus:</strong> mechanical design, CAD, FEA, prototyping, manufacturing, and research.</div>
+</div></section>
+
+<section id="projects"><div class="wrap">
+<h2 class="title">Engineering Projects</h2>
+<p class="intro">Selected work demonstrating mechanical design, engineering analysis, additive manufacturing, laboratory research, and technical communication.</p>
+
+<div class="grid">
+<article class="card">
+<img src="assets/wrench-fea-analysis.png" alt="ANSYS finite element analysis of the multifunctional wrench handle">
+<div class="cardbody"><div class="tag">ME 313 • CAD + FEA + MANUFACTURING</div>
+<h3>Multifunctional 3D-Printed Wrench Handle</h3>
+<p>Lightweight ABS wrench handle designed for detachable crowfoot wrench heads, developed through CAD iteration, FEA, prototyping, and functional testing.</p>
+<div class="chips"><span class="chip">SolidWorks</span><span class="chip">ANSYS</span><span class="chip">FEA</span><span class="chip">FDM</span><span class="chip">ABS</span></div>
+<a class="btn secondary" href="#wrench">View Project</a></div></article>
+
+<article class="card">
+<img src="assets/solar-poster-preview.png" alt="Engineering poster about perovskite-silicon tandem solar cells">
+<div class="cardbody"><div class="tag">RESEARCH • RENEWABLE ENERGY</div>
+<h3>Perovskite–Silicon Tandem Solar Cells</h3>
+<p>Engineering research examining how tandem solar-cell architectures can improve photovoltaic efficiency by using complementary absorbers.</p>
+<div class="chips"><span class="chip">Research</span><span class="chip">Energy</span><span class="chip">Technical Writing</span></div>
+<a class="btn secondary" href="#solar">View Project</a></div></article>
+</div>
+
+<article class="project" id="wrench"><div class="two">
+<div>
+<div class="tag">ME 313 — DESIGN OF MECHANICAL COMPONENTS</div>
+<h3>Multifunctional 3D-Printed Wrench Handle</h3>
+<p>Designed and manufactured a lightweight multifunctional wrench handle for detachable crowfoot wrench heads using FDM additive manufacturing.</p>
+<div class="stats"><div class="stat"><strong>&lt;70 g</strong>Mass requirement</div><div class="stat"><strong>ABS</strong>FDM material</div><div class="stat"><strong>6</strong>Bit-storage locations</div></div>
+<h4>Design & Engineering Process</h4>
+<p>The design progressed through multiple iterations to improve wrench-head retention, local stiffness, mass, manufacturability, and screwdriver-bit storage. SolidWorks was used for CAD development and ANSYS was used to evaluate structural behavior.</p>
+<h4>FEA Analysis</h4>
+<p>Finite element simulations evaluated deformation and stress under torque, combined loading, and three-point bending. The analysis identified high-stress regions around the drive/base area and helped guide geometry changes.</p>
+<h4>Manufacturing & Testing</h4>
+<p>The final prototype was manufactured using FDM with ABS and soluble support material. The part was inspected and functionally tested after printing.</p>
+<a class="btn primary" href="assets/multifunctional-wrench-report.pdf" target="_blank">View Full Project Report</a>
+</div>
+<div>
+<img src="assets/wrench-fea-analysis.png" alt="ANSYS FEA results for the wrench design">
+<div class="callout"><strong>Featured visual:</strong> ANSYS results from the wrench project, showing total deformation, shear stress, principal stress, equivalent stress, and normal stress.</div>
+</div>
+</div></article>
+
+<article class="project" id="solar"><div class="two">
+<div>
+<div class="tag">ENGINEERING RESEARCH + TECHNICAL COMMUNICATION</div>
+<h3>Improving Solar Panel Efficiency Through Perovskite–Silicon Tandem Solar Cells</h3>
+<p>This research project investigated the efficiency limitations of conventional silicon photovoltaic cells and how tandem architectures can reduce spectral losses.</p>
+<h4>Research Focus</h4>
+<ul><li>Silicon solar-cell efficiency limits</li><li>Thermalization and optical losses</li><li>Perovskite materials and tunable band gaps</li><li>Tandem-cell architecture</li><li>Outdoor spectral conditions</li><li>Stability, manufacturing, and environmental challenges</li></ul>
+<a class="btn primary" href="assets/solar-engineering-poster.pdf" target="_blank">View Engineering Poster</a>
+<a class="btn secondary" href="assets/solar-research-paper.pdf" target="_blank">View Research Paper</a>
+</div>
+<div><img src="assets/solar-poster-preview.png" alt="Perovskite-silicon tandem solar-cell engineering poster"></div>
+</div></article>
+
+<article class="project" id="biopsy"><div class="two">
+<div>
+<div class="tag">LABORATORY RESEARCH • UMass Amherst</div>
+<h3>Biopsy Device & Biomedical Engineering Research</h3>
+<p>As a Laboratory Intern with the Shrimathveeravalli Research Group, I contributed to biomedical engineering research involving fabrication, microfluidic systems, and endoscopic applications.</p>
+<h4>My Work</h4>
+<ul><li>CAD design of a biopsy needle/device</li><li>Fabrication of blood vessels</li><li>Fabrication of 2D flow and screening microchips</li><li>Research related to pancreatic endoscopy</li></ul>
+<p>This experience expanded my engineering work beyond mechanical components into biomedical device design and laboratory fabrication.</p>
+</div>
+<div><img src="assets/biopsy-device.jpeg" alt="Biopsy device prototype from laboratory research"></div>
+</div></article>
+</div></section>
+
+<section id="experience"><div class="wrap">
+<h2 class="title">Engineering Experience</h2>
+<div class="exp">
+<div class="box"><div class="date">October 2025 – Present • UMass Amherst</div><h3>Laboratory Intern — Shrimathveeravalli Research Group</h3><ul><li>Fabrication of blood vessels, 2D flow and screening microchips.</li><li>Research in pancreatic endoscopy.</li><li>CAD design of a biopsy needle.</li></ul></div>
+<div class="box"><div class="date">May 2025 – August 2025 • Komotini, Greece</div><h3>Consulting Intern — Stouras EE</h3><ul><li>Collaborated with mechanical and electrical engineers during hospital construction.</li><li>Conducted material safety and code checks.</li><li>Used MATLAB for pipe-pressure and electrical-current calculations.</li><li>Visualized hospital renderings using AutoCAD and SolidWorks.</li></ul></div>
+</div></div></section>
+
+<section id="skills"><div class="wrap">
+<h2 class="title">Technical Skills</h2>
+<div class="skills">
+<div class="skill"><strong>CAD & Design</strong>SolidWorks<br>AutoCAD</div>
+<div class="skill"><strong>Analysis</strong>ANSYS FEA<br>MATLAB</div>
+<div class="skill"><strong>Manufacturing</strong>FDM 3D Printing<br>ABS Prototyping</div>
+<div class="skill"><strong>Engineering</strong>Mechanical Design<br>Materials • Fluids • Thermodynamics</div>
+</div></div></section>
+
+<section id="resume"><div class="wrap">
+<h2 class="title">Resume</h2><p class="intro">Education, engineering experience, laboratory research, technical skills, and additional experience.</p>
+<a class="btn primary" href="assets/resume.pdf" target="_blank">Open Resume PDF</a>
+</div></section>
+
+<footer id="contact"><div class="wrap">
+<h2>Let's Connect</h2><p>Interested in opportunities related to mechanical engineering, aerospace engineering, research, design, and advanced manufacturing.</p>
+<p><a href="mailto:olgastoura@gmail.com">olgastoura@gmail.com</a></p>
+</div></footer>
+</body></html>
